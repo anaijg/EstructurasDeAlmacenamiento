@@ -17,11 +17,8 @@ public class Ejercicio05 {
         System.out.println(cadena.startsWith("J"));
 
         // 2) podemos poner un || y comparar con "j" y "J"
-        if (cadena.startsWith("J") || cadena.startsWith("j")) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+        boolean empiezaPorJ = (cadena.startsWith("J") || cadena.startsWith("j"));
+        System.out.println(empiezaPorJ);
         // 3) Más simple: imprimimos el resultados de la pregunta
         System.out.println(cadena.startsWith("J") || cadena.startsWith("j"));
     }
