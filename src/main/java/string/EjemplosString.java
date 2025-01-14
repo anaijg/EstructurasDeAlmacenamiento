@@ -36,5 +36,21 @@ public class EjemplosString {
         s = s.toUpperCase().replace("H","B");
         System.out.println(s);
         System.out.println(s.contains("Bola"));
+
+        // Ejemplos de comparaciones de string
+        System.out.println("\n\n\nComparaciones String");
+        String curso1 = "DAM 1";
+        String curso2 = "Dam 1";
+        String curso3 = "DAW 13";
+        String curso4 = "daw 2";
+        System.out.println(curso1.equals(curso2)); // false "DAM 1".equals("Dam 1");
+        System.out.println(curso1.equalsIgnoreCase(curso2)); // true
+        System.out.println(curso1.startsWith("da")); // false
+        System.out.println(curso1.startsWith("DA")); // true
+        System.out.println(curso1.endsWith(" 1")); // true
+        System.out.println(curso1.contains(curso3.substring(3, 5))); //
+        System.out.println(curso3.substring(2, 5));
+
+
     }
 }
