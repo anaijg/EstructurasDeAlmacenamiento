@@ -2,7 +2,7 @@ package array;
 
 import java.util.Random;
 
-public class EjemploArrayNumerosAleatorios {
+public class EjemploNumerosAleatorios {
     public static void main(String[] args) {
         // quiero un array de 30 números generados aleatoriamente entre 1 y 100
 
