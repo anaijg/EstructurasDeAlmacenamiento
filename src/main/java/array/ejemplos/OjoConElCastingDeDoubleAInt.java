@@ -1,4 +1,4 @@
-package array;
+package array.ejemplos;
 
 public class OjoConElCastingDeDoubleAInt {
     public static void main(String[] args) {
