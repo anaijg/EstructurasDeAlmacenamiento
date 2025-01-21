@@ -56,6 +56,21 @@ public class EjemplosBidimensionales {
 
         System.out.println(tabla1[1][2]);
 
+        // por último, los arrays dentro de un array bidimensional no tienen por qué tener todos la misma longitud
+        int[][] tabla4 = new int[3][];// dejo en blanco el número de columnas
+
+        tabla4 [0] = new int[] { 1, 2, 3, 4 }; // la primera fila tiene longitud 4
+        tabla4 [1] = new int[] { 5, 7, 3};     // la segunda fila tiene longitud 3
+        tabla4 [2] = new int[] { 8 };          // la tercera fila tiene longitud 1
+
+        // vamos a imprimir todos los elementos de este array bidimensional
+        System.out.println("\n\n");
+        for (int i = 0; i < tabla4.length; i++) {
+            for (int j = 0; j < tabla4[i].length; j++) {
+                System.out.print(tabla4[i][j] + "\t");
+            }
+            System.out.println();
+        }
 
 
     }
